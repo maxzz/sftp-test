@@ -7,9 +7,9 @@ sftp.on('close', () => {
 });
 
 const config = {
-    host: 'www.crossmatch.com',
-    username: 'Max-AltusAddons',
-    password: 'Zakharzhevskiy!'
+    host: 'www.crossmatch.com', // non-existing anymore
+    username: 'Max-AltusAddons', // no such user anymore
+    password: 'Zakhar@zhe=vskiy!' // old password before ssh
 };
 
 const REMOTE_ROOT_URL = "/AltusAddons/g01/current";
